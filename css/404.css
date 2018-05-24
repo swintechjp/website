@@ -1,0 +1,29 @@
+body {
+    font-family: "Sawarabi Gothic",sans-serif;
+    margin: auto;
+}
+    
+section {
+    font-family: inherit;
+    position: fixed;
+    top:50%;
+    left:50%;
+    -ms-transform:translate(-50%,-50%);
+    -webkit-transform:translate(-50%,-50%);
+    transform:translate(-50%,-50%);
+    width: 300px;
+}
+    
+section h1{
+    color: black;
+    font-size: 30px;
+    margin: 0;
+}
+    
+section p{
+    color: black;
+    text-align: left;
+    font-size: 18px;
+    margin: 1;
+}
+    
