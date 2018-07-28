@@ -1,21 +1,44 @@
 <!DOCTYPE HTML>
-<html>
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta http-equiv="content-language" content="ja">
-		<link rel="shortcut icon" href="img/swingtech.png">
-		<link rel="stylesheet" type="text/css" href="css/404.css">
-		<link href="https://fonts.googleapis.com/earlyaccess/sawarabigothic.css" rel="stylesheet" />
+<html charset="UTF-8" lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        
+        <meta name="description" content="プログラミング学習を楽しくする「Swintech」のWebサイトです。" />
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Swintech">
+        <meta property="og:title" content="TOP">
+        <meta property="og:url" content="http://swin.tech">
+        <meta propetty="og:description" content="プログラミング学習を楽しくする「Swintech」のWebサイトです。">
+        <title>Swintech</title>
 
-		<title>Swintech</title>
-	</head>
+        <link rel="stylesheet" href="css/style.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+        <script src="js/typed.js"></script>
 
-	<body>
-		<section>
-			<h1>Now Construction!</h1>
-			<hr />
-			<p>このサイトは工事中です。</p>
-		</section>
-	</body>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+
+    </head>
+    <body>
+        <div class="nav">
+            <div class="nav-img">
+                <img src="logo/logo.png" width="64px" height="64px" align="center"><font size="5">Swintech</font>
+            </div>
+        </div>
+        <div class="top-dekaichi">
+            <div class="top-midashi"><b><span class="nani"></span>を、<span class="dousuru"></span></b></div>
+        </div>
+        <script>
+            $(function(){
+                $(".nani").typed({
+                    strings: ["ごもくごはん", "フランスパン", "てんぷらそば", "ぶっかけうどん", "めんたいこスパゲティ"],
+                    typeSpeed: 100,
+                    backSpeed: 150,
+                    loop: true,
+                    showCursor: true,
+                    cursorChar: "|"
+                });
+            });
+        </script>
+    </body>
 </html>
